@@ -4,7 +4,6 @@ import numpy as np
 import time
 import gc
 
-
 output_each_running_time_state = False
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 

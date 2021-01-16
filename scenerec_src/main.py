@@ -36,7 +36,6 @@ output_each_running_time_state = False
 
 
 
-
 def load_fromMultiFile_full(base_dir, run_dir):
 
     cate_sceneNeighss = dict()

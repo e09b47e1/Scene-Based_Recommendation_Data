@@ -29,4 +29,3 @@ The rows whose line numbers are the same in train_user, valid\_posItem, and vali
 There is one user, one item and 100 items in each row in the above file, respectively. The other 3 files have similar structure, i.e., test\_user, test\_posItem, and test\_negItems.
 The remaining positive samples and their interacted users consist of the training set.
 Each interacted user-item pair is stored in the row of file train\_user\_item and file train\_item\_user. For the pair-wise objective, we sample a negative item for each pair and put them into three files: train\_user, train\_posItem, and train\_negItem.
-
